@@ -50,7 +50,7 @@ h3 {
 
 /* ====== النصوص ====== */
 strong {
-  color: var(--accent-gold);
+  color: #f1c40f;
   border-bottom: 3px solid var(--accent-gold);
   text-transform: uppercase;
   word-spacing: 5px;
@@ -67,7 +67,7 @@ a:hover {
   color: var(--accent-gold);
 text-shadow: 0 0 8px var(--accent-gold);    
   text-decoration: underline;
- }
+}
 
 /* ====== الصور ====== */
 img {
@@ -160,15 +160,14 @@ strong {
 /* للفقرات والوصف */
 p {
   font-family: 'Noto Sans Arabic', sans-serif;
-  line-height: 1.8;
   font-size: 24px;
+  line-height: 1.8;
 }
 .momo-signature-regular {
   font-family: "Momo Signature", cursive;
   font-weight: 400;
   font-style: normal;
 }
-
 
 
 
