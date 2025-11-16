@@ -61,12 +61,24 @@ a {
  color: var(--accent-cyan);
   text-decoration: none;
   transition: all 0.3s ease;
+    display: inline-block;
+  margin: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid var(--accent-cyan);
+  border-radius: 50px;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  transition: all 0.3s ease;
 }
 
 a:hover {
   color: var(--accent-gold);
 text-shadow: 0 0 8px var(--accent-gold);    
   text-decoration: underline;
+   background: var(--accent-red);
+  border-color: var(--accent-gold);
+  transform: scale(1.05);
 }
 
 /* ====== الصور ====== */
@@ -168,5 +180,6 @@ p {
   font-weight: 400;
   font-style: normal;
 }
+
 
 
